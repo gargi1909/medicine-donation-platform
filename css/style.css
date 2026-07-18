@@ -573,3 +573,162 @@ footer{
     line-height:1.6;
 
 }
+/* ==========================
+   PHARMACY DASHBOARD
+========================== */
+
+.dashboard{
+
+    padding:70px 50px;
+
+    text-align:center;
+
+}
+
+.dashboard h2{
+
+    color:#2563EB;
+
+    font-size:42px;
+
+    margin-bottom:10px;
+
+}
+
+.dashboard p{
+
+    color:#555;
+
+    font-size:20px;
+
+    margin-bottom:40px;
+
+}
+
+.dashboard-cards{
+
+    display:flex;
+
+    justify-content:center;
+
+    gap:25px;
+
+    flex-wrap:wrap;
+
+}
+
+.dashboard-card{
+
+    width:220px;
+
+    background:white;
+
+    padding:30px;
+
+    border-radius:15px;
+
+    box-shadow:0 5px 15px rgba(0,0,0,0.1);
+
+    transition:.3s;
+
+}
+
+.dashboard-card:hover{
+
+    transform:translateY(-8px);
+
+}
+
+.dashboard-card h3{
+
+    color:#16A34A;
+
+    font-size:35px;
+
+    margin-bottom:10px;
+
+}
+
+.dashboard-card p{
+
+    color:#555;
+
+}
+
+.inventory{
+
+    padding:60px;
+
+}
+
+.inventory h2{
+
+    color:#2563EB;
+
+    margin-bottom:25px;
+
+}
+
+.add-btn{
+
+    background:#2563EB;
+
+    color:white;
+
+    border:none;
+
+    padding:12px 25px;
+
+    border-radius:8px;
+
+    margin-bottom:25px;
+
+    cursor:pointer;
+
+    font-size:16px;
+
+}
+
+.add-btn:hover{
+
+    background:#16A34A;
+
+}
+
+table{
+
+    width:100%;
+
+    border-collapse:collapse;
+
+    background:white;
+
+    box-shadow:0 5px 15px rgba(0,0,0,0.1);
+
+}
+
+th{
+
+    background:#2563EB;
+
+    color:white;
+
+    padding:18px;
+
+}
+
+td{
+
+    padding:16px;
+
+    text-align:center;
+
+    border-bottom:1px solid #ddd;
+
+}
+
+tr:hover{
+
+    background:#f5f7fa;
+
+}
